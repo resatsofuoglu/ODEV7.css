@@ -1,0 +1,167 @@
+html {
+    height: 100%;
+}
+body {
+  background-color:#282828;
+    font-family: arial sans-serif;
+    height: 100%;
+    margin: 0px;
+} 
+
+.header {
+    display: flex;
+    color: white;
+    justify-content:flex-end;
+}
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.kose {
+    display: block;
+    float: right;
+    display: flex;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+.sola {
+    display: block;
+    margin-right: 80px;
+}
+.gmail {
+    display: inline-block;
+    padding-left: 15px;
+}
+.imge {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.kullanici {
+
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+a {
+    color: white;
+}
+
+.baslik {
+   text-align: center;
+    margin-top: 40px;
+    font-size: 100px;
+    color: white;
+    
+}
+.searchbutton {
+    width: 550px;
+    height: 40px;
+    border-radius:2em;
+    border-width: 1px;
+    border-color: #dacfcf;
+    background-color:#282828;
+    outline: none;
+}
+.buton {
+    display: flex;
+    justify-content: center;
+   
+}
+.button {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;     
+}
+.xyz {
+    border-radius: 5px;
+    height: 30px;
+    background-color: #282828;
+    border-color: #9aa0a6;
+    color: white;
+
+}
+.araBolge {
+    flex-grow: 1;
+}
+.offer {
+    margin-top: 0px;
+    text-align: center;
+    color: white;  
+    flex-grow: 1;
+}
+.Footer {
+    background: #171717;
+    color: #9aa0a6;
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+.sol {
+    display: flex;
+    padding: 15px;
+    margin-left: 20px;
+    background: #171717;
+    
+
+}
+.Country {
+    padding: 15px;
+    margin-left: 20px;
+    border-bottom: 1px solid#212327;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.sag {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+}
+
+.inputCont {
+    position: relative;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    
+    padding-left: 20p;
+}
+.advertising {
+    
+    padding-left: 20px;
+}
+.business {
+  
+    padding-left: 20px;
+}
+.howworks {
+    
+    padding-left: 20px;
+}
+
+.privacy {
+  
+    padding-right: 20px;
+}
+.terms {
+   
+    padding-right: 20px;
+
+}
+.settings {
+   
+    padding-right: 20px;
+}
